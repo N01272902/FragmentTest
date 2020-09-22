@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FragmentAssignment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="textView1">Life Cycle Methods Demonstration</string>
+    <string name="ai_activity_tv">AI Activity:</string>
+    <string name="vr_activity_tv">VR Activity:</string>
+    <string name="main_method_exe">Main Activity: onCreate executed onStart executed</string>
+    <string name="oncreate_executed">onCreate executed</string>
+    <string name="onstart_executed">onStart Executed</string>
+    <string name="ondestroy_executed">onDestroy Executed</string>
+    <string name="onstop_executed">onStop Executed</string>
+</resources>

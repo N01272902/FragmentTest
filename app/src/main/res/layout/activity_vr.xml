@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VRActivity">
+
+
+    <TextView
+        android:id="@+id/textViewVR"
+        android:layout_width="184dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/vr_activity_tv"
+        android:textColor="#ff0000"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewVR1"
+        android:layout_width="145dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/oncreate_executed"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewVR" />
+
+    <TextView
+        android:id="@+id/textViewVR2"
+        android:layout_width="134dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/onstart_executed"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewVR1" />
+
+    <TextView
+        android:id="@+id/textViewVR3"
+        android:layout_width="131dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/onstop_executed"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewVR2" />
+
+    <TextView
+        android:id="@+id/textViewVR4"
+        android:layout_width="141dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/ondestroy_executed"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewVR3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

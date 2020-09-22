@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VRActivity">
+
+
+    <TextView
+        android:id="@+id/textViewAI"
+        android:layout_width="184dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/ai_activity_tv"
+        android:textColor="#ff0000"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewAI1"
+        android:layout_width="141dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/oncreate_executed"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAI" />
+
+    <TextView
+        android:id="@+id/textViewAI2"
+        android:layout_width="134dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/onstart_executed"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAI1" />
+
+    <TextView
+        android:id="@+id/textViewAI3"
+        android:layout_width="131dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/onstop_executed"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAI2" />
+
+    <TextView
+        android:id="@+id/textViewAI4"
+        android:layout_width="132dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/ondestroy_executed"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAI3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
