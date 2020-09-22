@@ -7,7 +7,6 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 import android.widget.Toast;
 
 public class BottomFragment extends Fragment {
@@ -26,6 +25,6 @@ public class BottomFragment extends Fragment {
     public void onStart()
     {
         super.onStart();
-        //Toast.makeText(getActivity(),"onStart() is now executed from bottom fragment", Toast.LENGTH_LONG).show(); //onStart Called
+        Toast.makeText(getActivity(),"onStart() is now executed from bottom fragment", Toast.LENGTH_LONG).show(); //onStart Called
     }
 }

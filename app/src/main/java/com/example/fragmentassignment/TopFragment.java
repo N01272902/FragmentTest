@@ -24,7 +24,7 @@ public class TopFragment extends ListFragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         //onCreateView Toast called in fragment
-       // Toast.makeText(getActivity(), "onCreateView() is executed from the top fragment", Toast.LENGTH_LONG).show(); //onCreateView called
+       Toast.makeText(getActivity(), "onCreateView() is executed from the top fragment", Toast.LENGTH_LONG).show(); //onCreateView called
 
         View view = inflater.inflate(R.layout.fragment_top, container, false);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
