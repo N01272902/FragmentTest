@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Affectation de fragments</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="textView1">Démonstration des méthodes du cycle de vie</string>
+    <string name="ai_activity_tv">Activité IA:</string>
+    <string name="vr_activity_tv">Activité VR:</string>
+    <string name="main_method_exe">Activité Principale: onCreate exécuté onStart exécuté</string>
+    <string name="oncreate_executed">onCreate exécuté</string>
+    <string name="onstart_executed">onStart exécuté</string>
+    <string name="ondestroy_executed">onDestroy exécuté</string>
+    <string name="onstop_executed">onStop exécuté</string>
+</resources>
